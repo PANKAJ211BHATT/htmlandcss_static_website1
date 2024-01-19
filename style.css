@@ -1,0 +1,104 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: 
+  #8F6449;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.heading{
+ display: flex;
+ height: 100px;
+ justify-content: center;
+ background-color:#293040;
+
+}
+.heading .logo img{
+ height: 100%;
+ 
+}
+.navigation {
+  background-color: #333; 
+  height: 30px;
+}
+
+nav ul {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  margin: 0 60px 0 60px;
+}
+
+nav ul li a {
+  padding: 3px;
+  font-size: 25px;
+  text-decoration: none;
+  color: white; /* Set text color as per your design */
+}
+nav ul li:hover{
+  background-color:   #b7b7b7;
+ 
+}
+.booking{
+  
+  
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 99.7%;
+  
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+.booking .book{
+
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.booking .takeaway{
+
+  width: 50%;
+  height: 50%;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.booking a{
+  width: 100%;
+  height: 100%;
+  color: #b7b7b7;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+.booking a:hover{
+  background-color: #d5946b;
+  color: #ffffff;
+}
+.booking a img{
+  width: 50px;
+  height: 50px;
+}
+
+
