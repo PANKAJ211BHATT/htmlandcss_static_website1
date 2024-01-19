@@ -45,6 +45,8 @@ nav ul li a {
 }
 nav ul li:hover{
   background-color:   #b7b7b7;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* Adjust the glow color and intensity as needed */
+    
  
 }
 .booking{
