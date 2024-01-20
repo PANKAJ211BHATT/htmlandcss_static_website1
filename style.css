@@ -36,6 +36,7 @@ nav ul {
 
 nav ul li {
   margin: 0 30px; /* Adjusted margin for better spacing */
+  flex-wrap: wrap;
 }
 
 nav ul li a {
@@ -123,4 +124,20 @@ nav ul li:hover {
 
 .product:hover {
   background-color: #f0f0f0;
+}
+.recommendation{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 5px 0;
+}
+.moving-pics{
+  width: 100%;
+  text-align: center;
+  margin: 30px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+}
+.moving-pics img{
+  margin: 30px;
 }
