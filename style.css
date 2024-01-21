@@ -50,6 +50,7 @@ nav ul li:hover {
   text-decoration: underline white;
 }
 
+
 .booking {
   border: 2px solid white;
   border-radius: 5px;
@@ -140,4 +141,28 @@ nav ul li:hover {
 }
 .moving-pics img{
   margin: 30px;
+}
+
+.image-carousel {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: scrollImages 10s linear infinite; /* Adjust the duration as needed */
+}
+
+.image-carousel img {
+  width: 200px;
+  height: 200px;
+  
+  display: inline-block;
+  vertical-align: middle;
+}
+
+@keyframes scrollImages {
+  0% {
+      transform: translateX(100%); /* Start from the right side */
+  }
+  100% {
+      transform: translateX(-100%); /* End on the left side */
+  }
 }
