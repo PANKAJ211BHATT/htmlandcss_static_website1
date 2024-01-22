@@ -53,6 +53,7 @@ nav ul li:hover {
 
 .booking {
   border: 2px solid white;
+  background-color: #293040;
   border-radius: 5px;
   width: 99.7%;
   height: 200px;
@@ -95,6 +96,7 @@ nav ul li:hover {
 
 .category {
   display: flex;
+  background-color: #293040;
   border: 2px solid #ccc;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -106,6 +108,7 @@ nav ul li:hover {
   text-align: center;
   margin: 10px;
   border: 2px solid #ccc;
+  background-color: #8F6449;
   border-radius: 8px;
   overflow: hidden;
   transition: background-color 0.3s ease-in-out;
@@ -120,7 +123,7 @@ nav ul li:hover {
 
 .product img {
   width: 100%;
- 
+  
 }
 
 .product:hover {
@@ -128,6 +131,7 @@ nav ul li:hover {
 }
 .recommendation{
   display: flex;
+  
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 5px 0;
@@ -135,17 +139,20 @@ nav ul li:hover {
 .moving-pics{
   width: 100%;
   text-align: center;
+  
   margin: 30px;
   border: 2px solid #ccc;
   border-radius: 8px;
 }
 .moving-pics img{
   margin: 30px;
+  
 }
 
 .image-carousel {
   width: 100%;
   overflow: hidden;
+  background-color: #333;
   white-space: nowrap;
   animation: scrollImages 10s linear infinite; /* Adjust the duration as needed */
 }
